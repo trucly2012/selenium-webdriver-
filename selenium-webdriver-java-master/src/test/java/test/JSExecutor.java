@@ -6,9 +6,9 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
+@Test
 public class JSExecutor {
-    @Test
-    public void testJSExecutor() {
+    public static void testJSExecutor() {
 
         //1. Init web-driver session
         WebDriver driver = driverFactory.getChromeDriver();

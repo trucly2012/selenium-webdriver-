@@ -9,9 +9,9 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
 
+@Test
 public class MultipleWindowsHandle {
-    @Test
-    public void testMultipleWindowsHandle() {
+    public static void testMultipleWindowsHandle() {
 
         // DRY - "Don't Repeat Yourself
         //1. Init web-driver session

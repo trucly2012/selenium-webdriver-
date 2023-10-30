@@ -11,9 +11,9 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.List;
 
+@Test
 public class HandleCheckboxes {
-    @Test
-    public void testHandleCheckboxes() {
+    public static void testHandleCheckboxes() {
         //1. Init web-driver session
         WebDriver driver = driverFactory.getChromeDriver();
         try {

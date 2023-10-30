@@ -12,9 +12,9 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.List;
 
+@Test
 public class DynamicContentHandle {
-    @Test
-    public void testDynamicContentHandle() {
+    public static void testDynamicContentHandle() {
         //1. Init web-driver session
         WebDriver driver = driverFactory.getChromeDriver();
         try {

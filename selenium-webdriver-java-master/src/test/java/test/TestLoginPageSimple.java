@@ -7,9 +7,10 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
+
 public class TestLoginPageSimple {
     @Test
-    public void testLoginPage() {
+    public  void testLoginPage() {
         WebDriver driver = driverFactory.getChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.get("https://the-internet.herokuapp.com/login");

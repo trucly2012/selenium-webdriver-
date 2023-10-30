@@ -9,9 +9,9 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
+@Test
 public class HandleDropdown {
-    @Test
-    public void testHandleDropdown() {
+    public static void testHandleDropdown() {
 
         //1. Init web-driver session
         WebDriver driver = driverFactory.getChromeDriver();

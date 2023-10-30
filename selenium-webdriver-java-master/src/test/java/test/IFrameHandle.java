@@ -6,9 +6,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
+@Test
 public class IFrameHandle {
-    @Test
-    public void testIFrameHandle() {
+    public static void testIFrameHandle() {
 
         //1. Init web-driver session
         WebDriver driver = driverFactory.getChromeDriver();

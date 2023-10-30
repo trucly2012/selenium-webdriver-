@@ -12,9 +12,9 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.List;
 
+@Test
 public class JSAlertHandle {
-    @Test
-    public void testJSAlertHandle() {
+    public static void testJSAlertHandle() {
 
         //1. Init web-driver session
         WebDriver driver = driverFactory.getChromeDriver();
